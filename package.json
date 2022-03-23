@@ -1,5 +1,5 @@
 {
-  "name": "firstproject",
+  "name": "nodejsproject",
   "version": "1.0.0",
   "description": "First project",
   "main": "main.js",
@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ahoora",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/karbarefaal/nodejsProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karbarefaal/nodejsProject/issues"
+  },
+  "homepage": "https://github.com/karbarefaal/nodejsProject#readme"
 }

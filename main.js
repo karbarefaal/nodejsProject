@@ -1,10 +1,19 @@
-// console.log("hello world!");
+// const logger = require('./logger');
+const { greeting, alis} = require('./logger');
 
-const http = require("http");
+
+console.log('first project');
+
+console.log(module);
 
 
-const server = http.createServer((req,res) => {
-    console.log(req);
-});
+// logger.sayHi("ali");
+// console.log(logger.text);
 
-server.listen(3000);
+// logger.greeting('ghasem');
+// console.log(logger.alis);
+
+
+greeting("ali") ;
+console.log(alis);
+
