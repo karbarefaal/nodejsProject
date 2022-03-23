@@ -1,19 +1,7 @@
-// const logger = require('./logger');
-const { greeting, alis} = require('./logger');
+const {alis , greeting} = require('./logger');
 
-
-console.log('first project');
-
-console.log(module);
-
-
-// logger.sayHi("ali");
-// console.log(logger.text);
-
-// logger.greeting('ghasem');
-// console.log(logger.alis);
-
-
-greeting("ali") ;
+greeting('javad');
 console.log(alis);
+
+
 
